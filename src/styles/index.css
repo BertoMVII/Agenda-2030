@@ -1,0 +1,41 @@
+
+
+body {
+  background-color: #4f4f4f;
+  color: white;
+  
+}
+
+
+header{
+    box-sizing: border-box;
+    display: inline;
+    text-decoration: none;
+}
+.image{
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.image img{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    opacity: 50%;
+    transition: 1s ease;
+    
+}
+
+.image img:hover{
+    opacity: 100%;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
