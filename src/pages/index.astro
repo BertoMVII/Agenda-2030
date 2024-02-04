@@ -13,17 +13,19 @@ const title = "Agenda 2030"
 	</head>
 	<body>
 
-		<header>
+		<header class="header">
 			<!-- titolo -->
-			<h1>{title}</h1>
+			<a href="" class="logo">{title}</a>
 			<!-- nav -->
-			<nav>
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Obiettivi</a></li>
-					<li><a href="">Quiz</a></li>
-				</ul>
-			</nav>
+			<input type="checkbox" class="menu-btn" id="menu-btn">
+			<label for="menu-btn" class="menu-icon">
+				<span class="nav-icon"></span>
+			</label>
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Obiettivi</a></li>
+				<li><a href="#">Quiz</a></li>
+			</ul>
 		</header>
 
 		<!-- grid -->
