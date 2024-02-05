@@ -121,17 +121,17 @@ header{
     display: none;
    }
 }
-.image{
+.image .sdgs{
     margin: auto;
     width: 80%;
-    justify-content: space-between;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
     padding-top: 100px;
 }
 
-.image img{
+.image .sdgs img{
     border-radius: 20px;
     width: 400px;
     height: 400px;
@@ -140,7 +140,7 @@ header{
     
 }
 
-.image img:hover{
+.image .sdgs img:hover{
     opacity: 100%;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -155,13 +155,14 @@ header{
     background-color: #2f2f2f;
     margin-top: 50px;
     border-radius: 20px;
-    padding: 30px;
 }
 .sdg17 img{
     border-radius: 20px;
     width: 400px;
     height: 400px;
+    margin: 30px;
 }
+
 
 .sdg17 .text{
     font-family: 'Protest Strike', sans-serif;
@@ -172,6 +173,15 @@ header{
     text-align: center;
 }
 
+.footer{
+    position: absolute;
+    background-color: #2f2f2f;
+    width: 100%;
+    left: 0;
+    margin-top: 50px;
+}
 
-
-
+.footer .contacts{
+    margin: 30px 0 0 0px;
+    width: max-content;
+}
