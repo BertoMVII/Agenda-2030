@@ -11,7 +11,7 @@ Una volta scaricata la repository e installato [node.js](https://nodejs.org/en),
 npm install
 npm start
 ```
-#N.B. npm install da eseguire solo se è la prima volta che eseguite il progetto.
+N.B.  npm install da eseguire solo se è la prima volta che eseguite il progetto.
 
 Infine copiare il local host e aprirlo su un browser.
 
